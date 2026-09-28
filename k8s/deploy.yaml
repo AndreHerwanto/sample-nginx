@@ -66,10 +66,9 @@ metadata:
   name: hello
   namespace: testing-hello-lb
 spec:
-  # ingressClassName: traefik   # isi sesuai hasil "kubectl get ingressclass" jika tidak ada default class
+  ingressClassName: nginx
   rules:
-    - host: hello.testing.local
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
