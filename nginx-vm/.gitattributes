@@ -1,0 +1,2 @@
+# Pastikan script shell selalu memakai LF (bukan CRLF) agar jalan di Linux
+*.sh text eol=lf
