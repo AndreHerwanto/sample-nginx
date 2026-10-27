@@ -1,0 +1,18 @@
+# Output monitoring (berisi URL, IP, dan data internal - jangan di-commit)
+curl_monitor/
+samples_*.csv
+report_health_*.md
+report_intermittent_*.md
+monitor.log
+nohup.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
